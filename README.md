@@ -1,7 +1,7 @@
 
 # 👁️‍🗨️ Virtual Reality Navigation Assistant for the Visually Impaired
 
-## 📌 Introduction
+##  Introduction
 
 Navigating unfamiliar environments can be extremely challenging for visually impaired individuals, often impacting their independence and quality of life. While traditional aids like canes and guide dogs are helpful, they have limitations in dynamic and crowded spaces.
 
@@ -9,7 +9,7 @@ This project introduces a **Virtual Reality Navigation Assistant**, an IoT-based
 
 ---
 
-## 📚 Literature Review
+## Literature Review
 
 Research has explored several assistive approaches, such as:
 - Wearable sensor-based haptic devices.
@@ -20,9 +20,9 @@ However, these solutions often lack in robustness or accessibility. This project
 
 ---
 
-## 🛠️ System Design
+##  System Design
 
-### 🔩 Hardware Components
+### Hardware Components
 - **Arduino Uno** – Central control unit.
 - **Ultrasonic Sensor (HC-SR04)** – Detects nearby obstacles.
 - **LiDAR Sensor (simulated using HC-SR04)** – For precise distance mapping.
@@ -31,7 +31,7 @@ However, these solutions often lack in robustness or accessibility. This project
 - **Buzzer** – Audio alerts for immediate obstacles.
 - **DFPlayer Mini + Speaker** – Voice guidance and system feedback.
 
-### 🧠 Software Architecture
+### Software Architecture
 - Arduino-based C++ code processes sensor data.
 - Integrates GPS parsing (TinyGPS++) and audio feedback.
 - Real-time alerts based on threshold distance values.
@@ -39,7 +39,7 @@ However, these solutions often lack in robustness or accessibility. This project
 
 ---
 
-## 💻 Implementation
+## Implementation
 
 ### Arduino Features:
 - Obstacle detection using ultrasonic and simulated LiDAR.
@@ -54,7 +54,7 @@ However, these solutions often lack in robustness or accessibility. This project
 
 ---
 
-## 🧪 Testing and Evaluation
+##  Testing and Evaluation
 
 ### Performance Metrics:
 - **Accuracy**: Reliable detection of obstacles via ultrasonic + LiDAR.
@@ -67,7 +67,7 @@ However, these solutions often lack in robustness or accessibility. This project
 
 ---
 
-## ✅ Results & Discussion
+## Results & Discussion
 
 ### Strengths:
 - ✔️ High precision using LiDAR and ultrasonic combo.
@@ -110,7 +110,7 @@ Sensor Detection → GPS Tracking → Data Processing → Feedback Delivery → 
 
 ---
 
-## 🔌 Libraries Used
+##  Libraries Used
 - `Wire.h` – I2C communication.
 - `MPU6050.h` – IMU control.
 - `SoftwareSerial.h` – Serial comms for GPS and DFPlayer.
@@ -119,7 +119,7 @@ Sensor Detection → GPS Tracking → Data Processing → Feedback Delivery → 
 
 ---
 
-## 🧑‍💻 Getting Started
+##  Getting Started
 
 ### Requirements:
 - Arduino IDE
@@ -142,11 +142,6 @@ Sensor Detection → GPS Tracking → Data Processing → Feedback Delivery → 
 
 ---
 
-## 📸 Demo & Screenshots
-
-_Add pictures of your setup, real-time testing, and the user interface (optional)._
-
----
 
 ## 📃 License
 
